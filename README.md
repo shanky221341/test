@@ -4,7 +4,7 @@
 
 * Steps of working
 
-1. First this script reads data set to the objects test and train for test and train data respectively.
+1.First this script reads data set to the objects test and train for test and train data respectively.
 
 by the following codes:-
 
