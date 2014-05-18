@@ -85,9 +85,9 @@ Following are the coloumn names in the the tdy data set with their description.
 73.	"frequencyuencybodyaccelerationjerkdeviationyaxis"--It is standard deviation of body accelearation jerk signals in frequency domain across y axis.
 74.	"frequencyuencybodyaccelerationjerkdeviationzaxis"--It is standard deviation of body accelearation jerk signals in frequency domain across z axis.
 75.	"frequencyuencybodygyroscopedeviationxaxis"--It is standard deviation of body angular velocity in frequency domain across x axis.
-76	"frequencyuencybodygyroscopedeviationyaxis"--It is standard deviation of body angular velocity in frequency domain across y axis.
-77	"frequencyuencybodygyroscopedeviationzaxis"--It is standard deviation of body angular velocity in frequency domain across z axis.
-78	"frequencyuencybodyaccelerationmagnitudedeviation"--It is standard deviation of magnitude of body acceleration in frequency domain.
+76.	"frequencyuencybodygyroscopedeviationyaxis"--It is standard deviation of body angular velocity in frequency domain across y axis.
+77.	"frequencyuencybodygyroscopedeviationzaxis"--It is standard deviation of body angular velocity in frequency domain across z axis.
+78.	"frequencyuencybodyaccelerationmagnitudedeviation"--It is standard deviation of magnitude of body acceleration in frequency domain.
 79.	"frequencyuencybodyaccelerationjerkmagnitudedeviation--"It is standard deviation of magnitude of body acceleration jerk signals in frequency domain.
 80.	"frequencyuencybodygyroscopemagnitudedeviation"--It is standard deviation of magnitude of body angular velocity in frequency domain.
 81.	"frequencyuencybodygyroscopejerkmagnitudedeviation"--It is standard deviation of magnitude of angular velocity jerk dsignals in frequency domain.
