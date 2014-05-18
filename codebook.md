@@ -34,9 +34,9 @@ Following are the coloumn names in the the tdy data set with their description.
 22.	"timebodygyroscopejerkmagnitudemean"--It is mean of magnitude body angular velocity jerk signals in time domain.
 23.	"frequencyuencybodyaccelerationmeanxaxis"--It is mean of body accelearation in frequency domain across x axis.
 24.	"frequencyuencybodyaccelerationmeanyaxis"--It is mean of body accelearation in frequency domain across y axis.
-25	"frequencyuencybodyaccelerationmeanzaxis"--It is mean of body accelearation in frequency domain across z axis.
+25.	"frequencyuencybodyaccelerationmeanzaxis"--It is mean of body accelearation in frequency domain across z axis.
 26.	"frequencyuencybodyaccelerationmeanfrequencyxaxis"--It is mean of body accelearation frquency in frequency domain across x axis.
-27	"frequencyuencybodyaccelerationmeanfrequencyy"-It is mean of body accelearation frquency in frequency domain across y axis.
+27.	"frequencyuencybodyaccelerationmeanfrequencyy"-It is mean of body accelearation frquency in frequency domain across y axis.
 28.	"frequencyuencybodyaccelerationmeanfrequencyzaxis"--It is mean of body accelearation frquency in frequency domain across z axis.
 29.	"frequencyuencybodyaccelerationjerkmeanxaxis"--It is mean of body accelearation jerk signals in frequency domain across x axis.
 30.	"frequencyuencybodyaccelerationjerkmeanyaxis"--It is mean of body accelearation jerk signals in frequncy domain across y axis.
