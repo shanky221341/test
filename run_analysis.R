@@ -1,21 +1,21 @@
 cleandata<-function()
 {
   
-  test<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/test/X_test.txt")
+  test<-read.table("./UCI HAR Dataset/test/X_test.txt")
 
-  train<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/train/X_train.txt")
+  train<-read.table("./UCI HAR Dataset/train/X_train.txt")
 
-  subject_train<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/train/subject_train.txt")
+  subject_train<-read.table("./UCI HAR Dataset/train/subject_train.txt")
 
-  activity_train<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/train/y_train.txt")
+  activity_train<-read.table("./UCI HAR Dataset/train/y_train.txt")
 
   z<-cbind(activity_train,train)
   
   a<-cbind(subject_train,z) #train data set with its subject and its activity
   
-  activity_test<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/test/y_test.txt")
+  activity_test<-read.table("./UCI HAR Dataset/test/y_test.txt")
   
-  subject_test<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/test/subject_test.txt")
+  subject_test<-read.table("./UCI HAR Dataset/test/subject_test.txt")
   
   y<-cbind(activity_test,test)
   
@@ -26,7 +26,7 @@ cleandata<-function()
   
   c<-c[order(c[,1],c[,2]),]# ordered data according in ascending order of subject performing the acthivity
   
-  features<-read.table("C:/Users/vineet/Desktop/LEARN/R/DATASET/UCI HAR Dataset/features.txt")
+  features<-read.table("./UCI HAR Dataset/features.txt")
   features<-as.matrix(features)
   names(c)[3:563]<-features[1:561,2]
   kk<-c[,grep(c("mean"),colnames(c))]
@@ -56,5 +56,23 @@ cleandata<-function()
   de$activity[de$activity==4] <- "SITTING"
   de$activity[de$activity==5] <- "STANDING"
   de$activity[de$activity==6] <- "LAYING"
+  
+  names(de)<-tolower(names(de))
+  names(de)<-gsub("-",replacement="",colnames(de))
+  names(de)<-sapply(strsplit(names(de),"\\()"),paste,collapse="")
+  names(de)<-gsub("tbody","timebody",names(de))
+  names(de)<-gsub("fbody","frequencybody",names(de))
+  names(de)<-gsub("tgravity","timegravity",names(de))
+  names(de)<-gsub("tgravity","timegravity",names(de))
+  names(de)<-gsub("x","xaxis",names(de))
+  names(de)<-gsub("acc","acceleration",names(de))
+  names(de)<-gsub("bodybody","body",names(de))
+  names(de)<-gsub("z","zaxis",names(de))
+  names(de)<-gsub("gyro","gyroscope",names(de))
+  names(de)<-gsub("std","deviation",names(de))
+  names(de)<-gsub("freq","frequency",names(de))
+  names(de)<-gsub("ny","nyaxis",names(de))
+  names(de)<-gsub("mag","magnitude",names(de))
   de
+  
 }
