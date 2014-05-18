@@ -60,10 +60,10 @@ Following are the coloumn names in the the tdy data set with their description.
 48.	"frequencyuencybodygyroscopejerkmagnitudemeanfrequency"--It is mean of magnitude body angular velocity frequency in frequency domain.
 49.	"timebodyaccelerationdeviationxaxis"--It is standard deviation of body accelearation in time domain across x axis.
 50.	"timebodyaccelerationdeviationyaxis"--It is standard deviation of body accelearation in time domain across y axis.
-51	"timebodyaccelerationdeviationzaxis"--It is standard deviation of body accelearation in time domain across z axis.
+51.	"timebodyaccelerationdeviationzaxis"--It is standard deviation of body accelearation in time domain across z axis.
 52.	"timegravityaccelerationdeviationxaxis"--It is standard deviation of gravity accelearation in time domain across x axis.
 53.	"timegravityaccelerationdeviationyaxis"--It is standard deviation of gravity accelearation in time domain across y axis.
-54	"timegravityaccelerationdeviationzaxis"--It is standard deviation of gravity accelearation in time domain across z axis.
+54.	"timegravityaccelerationdeviationzaxis"--It is standard deviation of gravity accelearation in time domain across z axis.
 55.	"timebodyaccelerationjerkdeviationxaxis"--It is standard deviation of body accelearation jerk signals in time domain across x axis.
 56.	"timebodyaccelerationjerkdeviationyaxis"--It is standard deviation of body accelearation jerk signals in time domain across y axis.
 57.	"timebodyaccelerationjerkdeviationzaxis"--It is standard deviation of body accelearation jerk signals in time domain across z axis.
@@ -90,4 +90,4 @@ Following are the coloumn names in the the tdy data set with their description.
 78.	"frequencyuencybodyaccelerationmagnitudedeviation"--It is standard deviation of magnitude of body acceleration in frequency domain.
 79.	"frequencyuencybodyaccelerationjerkmagnitudedeviation--"It is standard deviation of magnitude of body acceleration jerk signals in frequency domain.
 80.	"frequencyuencybodygyroscopemagnitudedeviation"--It is standard deviation of magnitude of body angular velocity in frequency domain.
-81.	"frequencyuencybodygyroscopejerkmagnitudedeviation"--It is standard deviation of magnitude of angular velocity jerk dsignals in frequency domain.
+81.	"frequencyuencybodygyroscopejerkmagnitudedeviation"--It is standard deviation of magnitude of angular velocity jerk signals in frequency domain.
