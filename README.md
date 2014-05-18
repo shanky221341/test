@@ -1,3 +1,3 @@
-## Working of R script
+## Working of R script to clean the data set for samsung galaxy mobiles
 
-This script
+1.This script 
