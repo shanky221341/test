@@ -120,5 +120,27 @@ Initialy de has been initiallizd to NULL . After each iteration we get on row fo
      
      names(de)<-tolower(names(de))
      
-22. 
+22. Then paranthesis is removed and spaces are collapsed using. 
+
+    names(de)<-sapply(strsplit(names(de),"\\()"),paste,collapse="")
+    
+23. Then the following lines of code changes the variable names to desciptive names using gsub function
+
+    names(de)<-gsub("tbody","timebody",names(de))
+  names(de)<-gsub("fbody","frequencybody",names(de))
+  names(de)<-gsub("tgravity","timegravity",names(de))
+  names(de)<-gsub("tgravity","timegravity",names(de))
+  names(de)<-gsub("x","xaxis",names(de))
+  names(de)<-gsub("acc","acceleration",names(de))
+  names(de)<-gsub("bodybody","body",names(de))
+  names(de)<-gsub("z","zaxis",names(de))
+  names(de)<-gsub("gyro","gyroscope",names(de))
+  names(de)<-gsub("std","deviation",names(de))
+  names(de)<-gsub("freq","frequency",names(de))
+  names(de)<-gsub("ny","nyaxis",names(de))
+  names(de)<-gsub("mag","magnitude",names(de))
+  
+  23. Finally we get the tidy data set in object de.
+
+
 
