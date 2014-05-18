@@ -4,43 +4,43 @@ The tidy data set contains 180 observations and 81 variables for the measured ac
 
 Following are the coloumn names in the the tdy data set with their description.
 
-"1"	"subject" - This  variable has number 1 to 30 which tells which subjeect(person) is performing activity 
-"2"	"activity"--This variable has desription of activity being performed and has values "WALKING"
+1.	"subject" - This  variable has number 1 to 30 which tells which subjeect(person) is performing activity 
+2.	"activity"--This variable has desription of activity being performed and has values "WALKING"
  "WALKING_UPSTAIRS"
  "WALKING_DOWNSTAIRS"
  "SITTING"
  "STANDING"
  "LAYING"
 
-"3"	"timebodyaccelerationmeanxaxis"--It is mean of body accelearation in time domain across x axis. 
-"4"	"timebodyaccelerationmeanyaxis"--It is mean of body accelearation in time domain across y axis.
-"5"	"timebodyaccelerationmeanzaxis"--It is mean of body accelearation in time domain across z axis.
-"6"	"timegravityaccelerationmeanxaxis"--It is mean of gravity accelearation in time domain across x axis.
-"7"	"timegravityaccelerationmeanyaxis"--It is mean of gravity accelearation in time domain across y axis.
-"8"	"timegravityaccelerationmeanzaxis"--It is mean of gravity accelearation in time domain across z axis.
-"9"	"timebodyaccelerationjerkmeanxaxis"--It is mean of body accelearation jerk signals in time domain across x axis.
-"10"	"timebodyaccelerationjerkmeanyaxis"--It is mean of body accelearation jerk signals in time domain across y axis.
-"11"	"timebodyaccelerationjerkmeanzaxis"--It is mean of body accelearation jerk signals in time domain across z axis.
-"12"	"timebodygyroscopemeanxaxis"--It is mean of body angular velocity in time domain across x axis.
-"13"	"timebodygyroscopemeanyaxis"--It is mean of body angular velocity in time domain across y axis.
-"14"	"timebodygyroscopemeanzaxis"--It is mean of body angular velocity in time domain across z axis.
-"15"	"timebodygyroscopejerkmeanxaxis"--It is mean of body angular velocity jerk signals in time domain across x axis.
-"16"	"timebodygyroscopejerkmeanyaxis"--It is mean of body angular velocity jerk signals in time domain across y axis.
-"17"	"timebodygyroscopejerkmeanzaxis"--It is mean of body angular velocity jerk signals in time domain across z axis.
-"18"	"timebodyaccelerationmagnitudemean"--It is mean of magnitude of body accelearation in time domain.
-"19"	"timegravityaccelerationmagnitudemean"--It is mean of magnitude gravity accelearation in time domain.
-"20"	"timebodyaccelerationjerkmagnitudemean"--It is mean of magnitude body accelearation jerk signals in time domain.
-"21"	"timebodygyroscopemagnitudemean"--It is mean of magnitude of body angular velocity in time domain.
-"22"	"timebodygyroscopejerkmagnitudemean"--It is mean of magnitude body angular velocity jerk signals in time domain.
-"23"	"frequencyuencybodyaccelerationmeanxaxis"--It is mean of body accelearation in frequency domain across x axis.
-"24"	"frequencyuencybodyaccelerationmeanyaxis"--It is mean of body accelearation in frequency domain across y axis.
-"25"	"frequencyuencybodyaccelerationmeanzaxis"--It is mean of body accelearation in frequency domain across z axis.
-"26"	"frequencyuencybodyaccelerationmeanfrequencyxaxis"--It is mean of body accelearation frquency in frequency domain across x axis.
-"27"	"frequencyuencybodyaccelerationmeanfrequencyy"-It is mean of body accelearation frquency in frequency domain across y axis.
-"28"	"frequencyuencybodyaccelerationmeanfrequencyzaxis"--It is mean of body accelearation frquency in frequency domain across z axis.
-"29"	"frequencyuencybodyaccelerationjerkmeanxaxis"--It is mean of body accelearation jerk signals in frequency domain across x axis.
-"30"	"frequencyuencybodyaccelerationjerkmeanyaxis"--It is mean of body accelearation jerk signals in frequncy domain across y axis.
-"31"	"frequencyuencybodyaccelerationjerkmeanzaxis"--It is mean of body accelearation jerk signals in frequncy domain across z axis.
+3.	"timebodyaccelerationmeanxaxis"--It is mean of body accelearation in time domain across x axis. 
+4.	"timebodyaccelerationmeanyaxis"--It is mean of body accelearation in time domain across y axis.
+5.	"timebodyaccelerationmeanzaxis"--It is mean of body accelearation in time domain across z axis.
+6.	"timegravityaccelerationmeanxaxis"--It is mean of gravity accelearation in time domain across x axis.
+7.	"timegravityaccelerationmeanyaxis"--It is mean of gravity accelearation in time domain across y axis.
+8.	"timegravityaccelerationmeanzaxis"--It is mean of gravity accelearation in time domain across z axis.
+9.	"timebodyaccelerationjerkmeanxaxis"--It is mean of body accelearation jerk signals in time domain across x axis.
+10.	"timebodyaccelerationjerkmeanyaxis"--It is mean of body accelearation jerk signals in time domain across y axis.
+11.	"timebodyaccelerationjerkmeanzaxis"--It is mean of body accelearation jerk signals in time domain across z axis.
+12.	"timebodygyroscopemeanxaxis"--It is mean of body angular velocity in time domain across x axis.
+13.	"timebodygyroscopemeanyaxis"--It is mean of body angular velocity in time domain across y axis.
+14.	"timebodygyroscopemeanzaxis"--It is mean of body angular velocity in time domain across z axis.
+15.	"timebodygyroscopejerkmeanxaxis"--It is mean of body angular velocity jerk signals in time domain across x axis.
+16.	"timebodygyroscopejerkmeanyaxis"--It is mean of body angular velocity jerk signals in time domain across y axis.
+17.	"timebodygyroscopejerkmeanzaxis"--It is mean of body angular velocity jerk signals in time domain across z axis.
+18.	"timebodyaccelerationmagnitudemean"--It is mean of magnitude of body accelearation in time domain.
+19.	"timegravityaccelerationmagnitudemean"--It is mean of magnitude gravity accelearation in time domain.
+20.	"timebodyaccelerationjerkmagnitudemean"--It is mean of magnitude body accelearation jerk signals in time domain.
+21.	"timebodygyroscopemagnitudemean"--It is mean of magnitude of body angular velocity in time domain.
+22.	"timebodygyroscopejerkmagnitudemean"--It is mean of magnitude body angular velocity jerk signals in time domain.
+23.	"frequencyuencybodyaccelerationmeanxaxis"--It is mean of body accelearation in frequency domain across x axis.
+24.	"frequencyuencybodyaccelerationmeanyaxis"--It is mean of body accelearation in frequency domain across y axis.
+25	"frequencyuencybodyaccelerationmeanzaxis"--It is mean of body accelearation in frequency domain across z axis.
+26.	"frequencyuencybodyaccelerationmeanfrequencyxaxis"--It is mean of body accelearation frquency in frequency domain across x axis.
+27	"frequencyuencybodyaccelerationmeanfrequencyy"-It is mean of body accelearation frquency in frequency domain across y axis.
+28.	"frequencyuencybodyaccelerationmeanfrequencyzaxis"--It is mean of body accelearation frquency in frequency domain across z axis.
+29.	"frequencyuencybodyaccelerationjerkmeanxaxis"--It is mean of body accelearation jerk signals in frequency domain across x axis.
+30.	"frequencyuencybodyaccelerationjerkmeanyaxis"--It is mean of body accelearation jerk signals in frequncy domain across y axis.
+31.	"frequencyuencybodyaccelerationjerkmeanzaxis"--It is mean of body accelearation jerk signals in frequncy domain across z axis.
 "32"	"frequencyuencybodyaccelerationjerkmeanfrequencyxaxis"-It is mean of body accelearation jerk signals of frequency in frequncy domain across x axis.
 "33"	"frequencyuencybodyaccelerationjerkmeanfrequencyy"--It is mean of body accelearation jerk signals of frequency in frequncy domain across y axis.
 "34"	"frequencyuencybodyaccelerationjerkmeanfrequencyzaxis"--It is mean of body accelearation jerk signals of frequency in frequncy domain across z axis.
